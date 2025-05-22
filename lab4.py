@@ -88,7 +88,7 @@ schema = StructType([
 
 # Reading CSV
 df_raw = spark.read.csv(
-    "C:\\Users\\37068\\Desktop\\UNIVERSITETAS\\Magistras\\2 kursas\\Didžiųjų duomenų analizė\\Lab4\\aisdk-2024-05-04.csv",
+    "\\aisdk-2024-05-04.csv",
     schema=schema,
     header=True,
     sep=","
